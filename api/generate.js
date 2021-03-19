@@ -1,4 +1,3 @@
-<?php
 	$type = $_GET['type'];
 
 	if (empty($type)) {
@@ -23,4 +22,3 @@
 	} else {
 		echo 'Invalid account type selected.';
 	}
-?>
